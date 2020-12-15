@@ -1,0 +1,213 @@
+@media (max-width: 900px){
+    #page-home{
+        background-position-x: 100vw;
+    }
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+
+    }
+    #page-home header a{
+        position: absolute;
+        bottom: 75%;
+        left: 50%;
+        
+        transform: translateX(-50%);
+        
+    }
+    #page-home main {
+        align-items: center;
+    }
+    #page-home .footrs {
+align-items: center;
+text-align: center;
+
+display: flex;
+    
+
+    }
+}
+
+@media (min-width: 1700px){
+    #page-home{
+        background-position-x: 50vw;
+    }
+
+}
+
+@media (min-height: 750px){
+    #page-home{
+        background-position-y: 200px;
+    }
+
+}
+
+
+@media (max-height: 760px){
+    #page-home{
+        background-position-y: 200px;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    .nav-container ul {
+        
+        text-align: center ;
+        padding: 0;
+       
+    
+    }
+    .nav-container ul li {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        display: inline-block;
+        margin: -40px 5px ;
+    }
+
+    .form {
+        padding-top: 5em;
+        padding-bottom: 5em;
+        width: 50%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #page-home{
+        background-position:right;
+        background-size: 42%;
+
+    }
+
+
+}
+
+@media screen and (max-width: 768px){
+    .nav-container ul {
+        float: none;
+        text-align: center ;
+        padding: 0;
+       
+    
+    }
+    .nav-container ul li {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        display: inline-block;
+        margin: 0 30px ;
+    }
+
+    .form {
+        padding-top: 5em;
+        padding-bottom: 5em;
+        width: 50%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #page-home{
+        background-position-x: 100vw;
+
+    }
+
+    .footer{
+        padding-top: 50%;
+    }
+
+
+}
+
+@media screen and (max-width: 576px){
+    .nav-container .btn-menumobile{
+        display: block !important;
+    }
+
+    html, body {
+        overflow-x: hidden;
+
+    }
+
+    nav{
+        height: 4em;
+    }
+    #logo{
+        left: 3em;
+        height: 4.5em;
+        width: 10em ;
+        margin-top: -0.35em;
+    }
+
+    .btn-menumobile{
+        display: block;
+        font-size: 1.75em;
+        color: rgb(230, 230, 221);
+        position: absolute;
+        right: 1.5em;
+        top: 0.75em;
+    }
+
+    .nav-container ul{
+        position: relative;
+        top: 0.15em;
+        height: 3em;
+        line-height: 3em;
+        display: none;
+    }
+    .nav-container ul li{
+     display: block;
+        background-color: rgb(80, 79, 79);
+        margin: 0;
+        border-top: 50px solid rgb(219, 219, 221);
+    }
+    #page-home header a {
+        display: flex;
+        color: #2c5dc9;;
+        font-weight: 700;
+        cursor: pointer;
+        
+    }
+   
+    .nav-container ul li a {
+        font-size: 1em;
+    
+    }
+
+    .open{
+        display: block !important;
+    }
+   
+    .footer-box h2{
+        font-size: 20px;
+        margin-top: -15px;
+
+    }
+    .footer-box span {
+        font-size: 15px;
+    }
+    .footer-box p {
+        font-size: 10px;
+    }
+    .localizacao-footer h2{
+        margin-left: -15px;
+        margin-top: -15px;
+    }
+    .fab {
+        margin-right: 10px;
+        font-size: 20px;
+        float: left;
+    }
+
+    .footer-bottom p {
+        font-weight: 600;
+        margin-top: 40px;
+       
+       margin-left: 50px;
+     
+    }
+
+}
+

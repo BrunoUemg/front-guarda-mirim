@@ -1,0 +1,313 @@
+#page-home header{
+  
+    display: flex;
+    position: relative;
+    
+    
+    background-color: #2c5dc9;
+   
+    margin-top: 40px;
+    width: 100%;
+}
+#page-home header a {
+    display: flex;
+    color: #e0dbdb;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+.nav-container .btn-menumobile{
+    display: none;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    height: 100px;
+width: 100%;
+z-index: 1;
+background-color: #2f5ab8;
+border-bottom: 1px solid #2f5ab8;
+}
+nav:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.nav-container{
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav-container ul{
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+    margin-top: 10px;
+    
+}
+
+.nav-container li{
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+    color: beige;
+}
+
+.nav-container li a{
+    text-decoration: none;
+    color: #dadada;
+    transition: .5s;
+
+}
+
+.nav-container li a:hover{
+   color: #2f5ab8;
+
+}
+#logo{
+    margin-top: 8px;
+}
+
+.form {
+    position: relative;
+    width: 90%;
+   
+    margin-left: 80px;
+    margin-right: auto;
+    padding-top: -50em;
+    padding-bottom: 15em;
+    text-align: center;
+}
+
+
+#page-home header a span{
+    margin-right: 16px;
+    display: flex;
+   background-image: url(../icones/log-in.svg);
+   width: 20px;
+   height: 20px;
+}
+
+#page-home{
+   height: 120vh;
+
+background: url('../icones/Imagem1.png') no-repeat;
+background-position: 50vw bottom; 
+
+
+}
+#page-home .content{
+    width: 100%;
+    max-width: 100%;
+height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#page-home main{
+    max-width: 500px;
+    flex: 1;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+}
+
+#page-home main h1{
+    font-size: 54px;
+  
+
+}
+
+
+#page-home main p{
+font-size: 24px;
+line-height: 38px;
+margin-top: 24px;
+}
+
+#page-home main a {
+   width: 100%;
+   max-width: 360px;
+   height: 72px;
+   border-radius: 8px;
+   display: flex;
+   align-items: center;
+   margin-top: 40px;
+   background-color: #2f5ab8;
+   transition: 400ms;
+   font-weight: bold;
+   color: white;
+   
+}
+
+#page-home main a:hover{
+
+background-color: #2c5dc9;
+}
+
+#page-home main a span{
+   width: 72px;
+   height: 72px;
+border-top-left-radius: 8px;
+border-bottom-left-radius: 8px;
+   background-color: rgba(0,0,0,0.08);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#page-home main a span::after{
+   content:"" ;
+   background-image: url(../icones/search.svg);
+   
+   width: 20px;
+   height: 20px;
+
+}
+#page-home main a strong{
+  flex: 1;
+   text-align: center;
+}
+
+#page-home .footer{
+    content: "";
+    position: relative;
+    background-color: rgb(207, 207, 212);
+    top: 180px;
+    height: 140px;
+    right: 0;
+    left: -123px;
+    width: 1347px;
+    bottom: 0;
+    z-index: -1;
+
+}
+#page-home .footer {
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+
+     gap: 250px;
+}
+
+#page-home .footrs {
+    margin-left: 260px;
+
+}
+
+#page-home .footrs h1  {
+    margin-bottom: 20px;
+
+}
+
+#page-home .footrs a  {
+   font-size: 20px;
+
+}
+
+footer {
+    background-color:#2c5dc9;
+    padding-top: 5em;
+    padding-bottom: 40px;
+    border-top: 5px solid #678ee4;
+}
+
+footer H2, footer p, footer a, footer span {
+    color: #dadada;
+
+}
+
+footer h2{
+    font-weight: 400;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer li{
+    list-style: none ;
+}
+
+.footer-box{
+    width: 31%;
+    padding: 1%;
+    padding-left: 5%;
+    float: left;
+}
+
+footer .wrapper:after{
+   clear: both;
+   content: "";
+   display: block; 
+}
+
+.localizacao-footer{
+    width: 80%;
+}
+
+.localizacao-footer h2{
+margin-top: 10px;
+color: #dadada;
+}
+
+.localizacao-footer h2, .localizacao-footer p{
+    margin-bottom: 20px;
+}
+
+.footer-list p{
+    margin-top: 10px;
+
+}
+
+.footer-list ul{
+    margin-bottom: 20px;
+}
+
+.footer-list a{
+    transition: .5s;
+}
+
+.footer-list a:hover{
+    color:rgb(192, 197, 197);
+}
+
+.footer-list li:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.fab {
+    margin-right: 10px;
+    font-size: 30px;
+    float: left;
+}
+
+.footer-list li span{
+height: 30px;
+line-height: 30px;
+margin-top: 15px;
+}
+
+.footer-bottom{
+    border-top: 1px solid #dadada;
+}
+
+.footer-bottom p {
+    font-weight: 600;
+    margin-top: 40px;
+ 
+   float:     right;
+ 
+}
